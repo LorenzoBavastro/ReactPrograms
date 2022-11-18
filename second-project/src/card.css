@@ -1,0 +1,51 @@
+.card
+{
+    width: 20%;
+    height: 20%;
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-left: 4%;
+    margin-top: 1%;
+    text-align: center;
+    background-color: brown;
+    float: inline-start;
+    box-shadow: 4px 10px 4px black;
+
+}
+
+.Title
+{
+    font-size: large;
+    text-align: center;
+
+}
+
+.innerCard 
+{
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid black ;
+    float: center;    
+
+}
+
+.description 
+{
+    height: fit-content;
+}
+
+.button
+{
+    font-size: 17px;
+    color: brown;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-bottom: 2px;
+    background-color: rgb(33, 30, 30);
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgba(93, 39, 11, 0.854);
+}
