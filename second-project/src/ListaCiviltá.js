@@ -11,7 +11,6 @@ import Sumeri from "./Sumeri";
 function ListaCiviltá() {
     return (
       <div>
-          
           <Romani></Romani>
           <Egizi></Egizi>
           <Persiani></Persiani>

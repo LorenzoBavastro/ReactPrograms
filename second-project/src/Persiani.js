@@ -3,7 +3,7 @@ function Persiani ()
     return(
         <div className="card">
             <b><h1>Impero Persiano</h1></b>
-            <p><b> È durato per circa 250 anni</b> </p>
+            <p><b> È perdurato per circa 250 anni</b> </p>
             <div>
                 <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Achaemenid_Empire_500_BCE.jpg"></img>
             </div>

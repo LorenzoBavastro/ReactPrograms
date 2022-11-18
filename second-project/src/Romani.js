@@ -3,7 +3,7 @@ function Romani ()
     return (
         <div className="card">
             <h1>Impero Romano</h1>
-            <b><p>È durato circa 1500 anni</p></b>
+            <b><p>È perdurato circa 1500 anni</p></b>
             <div >
                 <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Roman_Empire_Trajan_117AD.png/800px-Roman_Empire_Trajan_117AD.png"></img>
             </div>

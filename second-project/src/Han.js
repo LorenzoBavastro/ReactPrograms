@@ -3,7 +3,7 @@ function Han()
     return(
         <div className="card">
             <b><h1>Impero Han</h1></b>
-            <b><p>È durato..</p></b>
+            <b><p>È perdurato per oltre 400 anni</p></b>
             <div>
                 <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Han_commanderies_and_kingdoms_CE_2.jpg/400px-Han_commanderies_and_kingdoms_CE_2.jpg"></img>
             </div>

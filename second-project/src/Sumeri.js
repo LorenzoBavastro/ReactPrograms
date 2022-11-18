@@ -3,7 +3,7 @@ function Sumeri ()
     return(
         <div className="card">
             <h1>Sumeri</h1>
-            <b><p>Sono durati circa 1000 anni</p></b>
+            <b><p>Perdurarono per circa 1000 anni</p></b>
             <br></br>
             <div>
                 <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Ciudades_de_Sumeria.svg/390px-Ciudades_de_Sumeria.svg.png"></img>

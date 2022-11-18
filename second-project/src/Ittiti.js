@@ -3,7 +3,7 @@ function Ittiti()
     return(
         <div className="card">
             <h1> Impero Ittita</h1>
-            <b><p>È durato per circa 700 anni</p></b>
+            <b><p>È perdurato per circa 700 anni</p></b>
             <br></br>
             <div>
                 <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Hittite_Empire.png"></img>

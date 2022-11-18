@@ -3,7 +3,7 @@ function Egizi()
     return(
         <div className="card">
             <h1>Antico Egitto</h1>
-            <b><p>è durato per circa 4000 anni</p></b>
+            <b><p>È perdurato per circa 4000 anni</p></b>
             <div >
                 <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Egypt_1450_BC.svg/800px-Egypt_1450_BC.svg.png"></img>
             </div>

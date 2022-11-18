@@ -3,7 +3,7 @@ function Cartaginesi()
     return(
         <div className="card">
             <h1> Cartagine</h1>
-            <b><p>È durata per circa 700 anni</p></b>
+            <b><p>È perdurata per circa 700 anni</p></b>
             <br></br>
             <div>
                 <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/CarthageMap.png/260px-CarthageMap.png"></img>
