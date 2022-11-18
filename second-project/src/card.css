@@ -7,7 +7,7 @@
     margin-left: 4%;
     margin-top: 1%;
     text-align: center;
-    background-color: brown;
+    background-color: rgba(198, 142, 142, 0.829);
     float: inline-start;
     box-shadow: 4px 10px 4px black;
 
@@ -30,19 +30,19 @@
 
 }
 
-.description 
+.description
 {
-    height: fit-content;
+    color: black;
 }
 
 .button
 {
     font-size: 17px;
-    color: brown;
+    color: rgb(0, 0, 0);
     border-radius: 15px;
     border: 3px solid black;
     margin-bottom: 2px;
-    background-color: rgb(33, 30, 30);
+    background-color: rgb(241, 231, 231);
     cursor: pointer;
 }
 
