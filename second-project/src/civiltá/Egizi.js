@@ -10,7 +10,7 @@ function Egizi()
             <div className="description">
             <p>Un regno che assume a tratti la dimensione di impero. Centro vitale per lo sviluppo della civiltá umana nonchè costante di tutta l'antichitá. </p>
             </div>
-            <button className="button" type="button"> Mi Piace! </button>
+            <button className="button" type="button"> Scopri di piú </button>
         </div>
     );
 }

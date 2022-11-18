@@ -11,7 +11,7 @@ function Ittiti()
             <div className="description">
                 <p>Civiltá che occupó principalmente il territorio compreso fra Anatolia e mezzaluna fertile, che rivoluzionó l'uso del cavallo come animale tramite le staffe. Il conflitto con il vicino Egitto rimase scolpito nella storia</p>
             </div>
-            <button className="button" type="button"> Mi Piace! </button>
+            <button className="button" type="button"> Scopri di piú </button>
         </div>
     );
 }

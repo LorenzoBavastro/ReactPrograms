@@ -10,7 +10,7 @@ function Han()
             <div className="description">
                 <p>Un impero che ha mantenuto stabilmente il potere su tutta l'odierna cina centro-settentrionale, al cui interno si ebbero grandi innovazioni tecnologiche</p>
             </div>
-            <button className="button" type="button"> Mi Piace! </button>
+            <button className="button" type="button"> Scopri di piú </button>
         </div>
     );
 }

@@ -11,7 +11,7 @@ function Elleni()
                 <p>Civiltá che si espanse nell'arco di diversi secoli per tutto il mediterraneo ed il mar nero, non tramite un'entitá politica unica, bensí tramite una moltitudine di entitá differenti e protagoniste di innovazioni culturali uniche.</p>
             </div>
             <br></br>
-            <button className="button" type="button"> Mi Piace! </button>
+            <button className="button" type="button"> Scopri di piú </button>
         </div>
     );
 }

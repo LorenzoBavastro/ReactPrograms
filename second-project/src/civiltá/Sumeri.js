@@ -12,7 +12,7 @@ function Sumeri ()
                 <p>Sviluppatisi nel territorio mesopotamico, il loro regno, suddiviso in cittá stato, si rese protagonista della creazione di alcune delle piú emblematiche invenzioni dell'umanitá... ad esempio gli scacchi</p>
             </div>
             <br></br>
-            <button className="button" type="button"> Mi Piace! </button>
+            <button className="button" type="button"> Scopri di piú </button>
         </div>
     );
 }

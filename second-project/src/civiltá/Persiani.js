@@ -10,7 +10,7 @@ function Persiani ()
             <div className="description">
                 <p>Un impero multiculturale che ha saputo estendersi in tutto il vicino oriente antico ed anche gli odierni Iran, Pakistan, Egitto e Afghanistan</p>
             </div>
-            <button className="button" type="button"> Mi Piace! </button>
+            <button className="button" type="button"> Scopri di piú </button>
         </div>
     );
 }

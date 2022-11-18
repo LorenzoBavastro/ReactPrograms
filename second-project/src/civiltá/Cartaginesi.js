@@ -11,7 +11,7 @@ function Cartaginesi()
             <div className="description">
                 <p>Cartagine, colonia prospera dei fenici, si impose tramite il commercio come signora del mediterraneo occidentale, nonchè come principale contendente alla sicilia greca ed alla nuova potenza romana nelle guerre puniche.</p>
             </div>
-            <button className="button" type="button"> Mi Piace! </button>
+            <button className="button" type="button"> Scopri di piú </button>
         </div>
     );
 
