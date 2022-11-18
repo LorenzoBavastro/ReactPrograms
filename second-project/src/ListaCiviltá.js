@@ -1,11 +1,11 @@
-import Romani from "./Romani";
-import Egizi from "./Egizi";
-import Persiani from "./Persiani";
-import Han from "./Han";
-import Elleni from "./Elleni";
-import Cartaginesi from "./Cartaginesi";
-import Ittiti from "./Ittiti";
-import Sumeri from "./Sumeri";
+import Romani from "./civiltá/Romani";
+import Egizi from "./civiltá/Egizi";
+import Persiani from "./civiltá/Persiani";
+import Han from "./civiltá/Han";
+import Elleni from "./civiltá/Elleni";
+import Cartaginesi from "./civiltá/Cartaginesi";
+import Ittiti from "./civiltá/Ittiti";
+import Sumeri from "./civiltá/Sumeri";
 
 
 function ListaCiviltá() {
