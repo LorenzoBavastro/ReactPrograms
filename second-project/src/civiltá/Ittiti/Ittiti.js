@@ -1,18 +1,19 @@
+import ButtonIttiti from "./ButtonIttiti";
+import DescrizioneIttiti from "./DescrizioneIttiti";
+import ImmagineIttiti from "./ImmaginiIttiti";
+import MetadatoIttiti from "./MetadatoIttiti";
+import TitoloIttiti from "./TitoloIttiti";
+
 function Ittiti()
 {
     return(
         <div className="card">
-            <h1> Impero Ittita</h1>
-            <b><p>È perdurato per circa 700 anni</p></b>
-            <br></br>
-            <div>
-                <img className="innerCard" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Hittite_Empire.png"></img>
+            <TitoloIttiti></TitoloIttiti>
+            <MetadatoIttiti></MetadatoIttiti>
+            <ImmagineIttiti></ImmagineIttiti>
+            <DescrizioneIttiti></DescrizioneIttiti>
+            <ButtonIttiti></ButtonIttiti>
             </div>
-            <div className="description">
-                <p>Civiltá che occupó principalmente il territorio compreso fra Anatolia e mezzaluna fertile, che rivoluzionó l'uso del cavallo come animale tramite le staffe. Il conflitto con il vicino Egitto rimase scolpito nella storia</p>
-            </div>
-            <button className="button" type="button"> Scopri di piú </button>
-        </div>
     );
 }
 

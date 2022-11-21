@@ -5,9 +5,9 @@
     border: 3px solid black;
     border-radius: 5%;
     margin-left: 4%;
-    margin-top: 1%;
+    margin-top: 3%;
     text-align: center;
-    background-color: rgba(198, 142, 142, 0.829);
+    background-color: rgba(250, 210, 221, 0.829);
     float: inline-start;
     box-shadow: 4px 10px 4px black;
 
@@ -33,6 +33,10 @@
 .description
 {
     color: black;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .button
