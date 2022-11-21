@@ -7,7 +7,7 @@
     margin-left: 4%;
     margin-top: 3%;
     text-align: center;
-    background-color: rgba(250, 210, 221, 0.829);
+    background-color: rgba(194, 170, 155, 0.829);
     float: inline-start;
     box-shadow: 4px 10px 4px black;
 
@@ -53,3 +53,4 @@
 .button:hover{
     background-color: rgba(93, 39, 11, 0.854);
 }
+
