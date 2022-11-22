@@ -9,17 +9,13 @@ import Sumeri from "./civiltá/Sumeri/Sumeri";
 
 
 function ListaCiviltá() {
-    return (
+    return(
       <div>
-          <Romani></Romani>
-          <Sumeri></Sumeri>
-          <Ittiti></Ittiti>
-          <Persiani></Persiani>
-          <Elleni></Elleni>
-          <Cartaginesi></Cartaginesi>
-          <Egizi></Egizi>
-          <Han></Han>
-  
+        <Cartaginesi></Cartaginesi>
+        <Egizi></Egizi>
+        <Elleni></Elleni>
+        <Han></Han>
+        <Ittiti></Ittiti>
       </div>
     );
   }

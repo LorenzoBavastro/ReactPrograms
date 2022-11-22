@@ -1,18 +1,23 @@
-import ButtonElleni from "./ButtonElleni";
-import DescrizioneElleni from "./DescrizioneElleni";
-import ImmagineElleni from "./ImmaginiElleni";
-import MetadatoElleni from "./MetadatoElleni";
-import TitoloElleni from "./TitoloElleni";
+import { useState } from "react";
+import ButtonCard from "../ButtonCard";
+import DescrizioneCard from "../DescrizioneCard";
+import ImmagineCard from "../ImmagineCard";
+import MetadatoCard from "../MetadatoCard";
+import TitoloCard from "../TitoloCard";
+
 
 function Elleni()
 {
+    const [statoCiv, modificaStatoCiv] = useState(true)
+    function MoreInfo(){
+    modificaStatoCiv(!statoCiv)}
     return (
         <div className="card">
-            <TitoloElleni></TitoloElleni>
-            <MetadatoElleni></MetadatoElleni>
-            <ImmagineElleni></ImmagineElleni>
-            <DescrizioneElleni></DescrizioneElleni>
-            <ButtonElleni></ButtonElleni>
+            <TitoloCard titolo="Elleni"></TitoloCard>
+            <MetadatoCard metadato="Perdurarono per oltre 2000 anni"></MetadatoCard>
+            <ImmagineCard url ="https://www.fattiperlastoria.it/wp-content/uploads/2021/12/1-5-600x375.jpg"></ImmagineCard>
+            <DescrizioneCard description="Un regno che assume a tratti la dimensione di impero. Centro vitale per lo sviluppo della civiltá umana nonchè costante di tutta l'antichitá."></DescrizioneCard>
+            <ButtonCard buttonName ="More Info" moreInfo={MoreInfo}></ButtonCard>
             </div>
     );
 }
