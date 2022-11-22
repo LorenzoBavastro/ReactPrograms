@@ -16,6 +16,9 @@ function ListaCiviltá() {
         <Elleni></Elleni>
         <Han></Han>
         <Ittiti></Ittiti>
+        <Romani></Romani>
+        <Sumeri></Sumeri>
+        <Persiani></Persiani>
       </div>
     );
   }
