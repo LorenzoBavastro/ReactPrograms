@@ -1,3 +1,20 @@
+.Header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0536a2;
+    color:rgb(255, 255, 255);
+    z-index: 1000;
+    height: 10%;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    text-align:center;
+    line-height:160px;
+}
 
 .card
 {
