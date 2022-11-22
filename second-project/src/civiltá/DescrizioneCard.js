@@ -1,6 +1,6 @@
 export default function DescrizioneCard(props)
 {
     return(
-        <div> {props.description} </div>
+        <div className="description"> {props.descrizione} </div>
     )
 }

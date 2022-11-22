@@ -1,4 +1,4 @@
-function ImmagineCartagine()
+function ImmagineCartagine(props)
 {
     return(
         <div>

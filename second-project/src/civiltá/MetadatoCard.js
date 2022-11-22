@@ -1,6 +1,8 @@
-export default function MetadatoCard(props)
+ function MetadatoCard(props)
 {
     return(
         <div className="bold"> {props.metadato} </div>
     )
 }
+
+export default MetadatoCard;

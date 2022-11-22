@@ -1,11 +1,12 @@
-import ListaCiviltá from "./ListaCiviltá";
+import ListaCiv from "./ListaCiv";
+
 
 
 function App() {
   return (
     <div>
       
-      <ListaCiviltá></ListaCiviltá>
+      <ListaCiv></ListaCiv>
 
     </div>
   );

@@ -1,3 +1,4 @@
+
 .card
 {
     width: 20%;
@@ -7,14 +8,16 @@
     margin-left: 4%;
     margin-top: 3%;
     text-align: center;
-    background-color: rgba(194, 170, 155, 0.829);
+    background-color: rgba(255, 255, 255, 0.829);
+    color: rgb(22, 0, 103);
     float: inline-start;
     box-shadow: 4px 10px 4px black;
     justify-content: space-between;
     flex-basis: 30%;
     box-sizing: border-box;
     border: solid;
-
+    list-style: none;
+    
 }
 
 .Title
@@ -29,14 +32,14 @@
     width: 95%;
     height: 200px;
     border-radius: 10px;
-    border: 2px solid black ;
+    border: 2px solid rgba(28, 9, 94, 0.795) ;
     float: center;    
 
 }
 
 .description
 {
-    color: black;
+    color: rgb(18, 11, 71);
 }
 
 .bold {

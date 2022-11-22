@@ -15,7 +15,7 @@ function Ittiti()
 
     return(
         <div className="card">
-            <TitoloCard titolo="Ittiti"></TitoloCard> 
+            <TitoloCard titolo="Impero Ittita"></TitoloCard> 
             <MetadatoCard metadato="È perdurato per circa 700 anni"></MetadatoCard>
             <ImmagineCard url ="https://upload.wikimedia.org/wikipedia/commons/8/84/Hittite_Empire.png"></ImmagineCard>
             <DescrizioneCard  className="description" description="Civiltá che occupó il territorio compreso fra Anatolia e mezzaluna fertile, che rivoluzionó l'uso del cavallo come animale tramite le staffe. Il conflitto con il vicino Egitto rimase scolpito nella storia"></DescrizioneCard>
