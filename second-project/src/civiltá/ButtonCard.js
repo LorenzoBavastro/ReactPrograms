@@ -1,9 +1,11 @@
-export default function ButtonCard(props)
+function ButtonCard(props)
 {
     
     return(
 
-        <button className="button" onClick={props.moreInfo}> {props.buttonName}</button>
+        <button className="button" onClick={props.flip}><span>{props.buttonName}</span> </button>
 
          )
 }
+
+export default ButtonCard;

@@ -4,46 +4,96 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: #0536a2;
     color:rgb(255, 255, 255);
     z-index: 1000;
     height: 10%;
-    overflow: hidden;
-    -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    transition: height 0.3s;
+    background-color: rgb(162, 73, 13);
     text-align:center;
-    line-height:160px;
+    opacity: 70%;
+    
 }
 
-.card
+.HeaderTitleBox
 {
-    width: 20%;
-    height: 30%;
-    border: 3px solid black;
-    border-radius: 5%;
-    margin-left: 4%;
-    margin-top: 3%;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.829);
-    color: rgb(22, 0, 103);
-    float: inline-start;
-    box-shadow: 4px 10px 4px black;
-    justify-content: space-between;
-    flex-basis: 30%;
-    box-sizing: border-box;
-    border: solid;
-    list-style: none;
+    color: white;
+}
+
+.cardContainer
+{
     
+  display: table;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.titleBox
+{
+
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+
+.borderCard
+{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding:5px;
+    background-color: rgb(207, 206, 214);
+    
+}
+.card:hover
+{
+    
+    box-shadow: -7px 15px 7px rgb(114, 57, 4);
+}
+.card 
+{
+    width: 21%;
+    height: 21%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin:1.7%;
+    padding: 2px;
+    text-align: center;
+    background-color: rgba(3, 2, 11, 0.567);
+    color: rgb(4, 1, 12);
+    box-shadow: 2px 5px 2px rgb(151, 97, 11);
+    list-style: none;
+    float: inline-start;
+}
+
+.cardLarge
+{
+    width: 70%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin:1.7%;
+    padding: 2px;
+    text-align: center;
+    background-color: rgba(3, 2, 11, 0.567);
+    color: rgb(4, 1, 12);
+    box-shadow: 2px 5px 2px rgb(151, 97, 11);
+    list-style: none;
+    float: inline-start;
 }
 
 .Title
 {
     font-size: 50px;
     text-align: center;
-
 }
 
+.innerBasicCard
+{
+    width: 95%;
+    height: 200px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    float: center;    
+
+}
 .innerCard 
 {
     width: 95%;
@@ -54,27 +104,68 @@
 
 }
 
+.innerLargerCard
+{
+    width: 95%;
+    height: 700px;
+    border-radius: 10px;
+    border: 2px solid rgba(28, 9, 94, 0.795) ;
+    float: center;
+}
+.descriptionBox
+{
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 5px;
+}
 .description
 {
     color: rgb(18, 11, 71);
+    text-justify: auto; 
 }
 
+ 
 .bold {
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
-.button
-{
-    font-size: 17px;
-    color: rgb(0, 0, 0);
-    border-radius: 15px;
-    border: 3px solid black;
-    margin-bottom: 2px;
-    background-color: rgb(241, 231, 231);
+.button {
+    border-radius: 4px;
+    background-color: rgb(161, 109, 19);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;;
+    width: 150px;
+    transition: all 0.5s;
     cursor: pointer;
+    margin: 2px;
 }
 
-.button:hover{
-    background-color: rgba(93, 39, 11, 0.854);
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}

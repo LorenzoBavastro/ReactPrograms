@@ -1,7 +1,7 @@
  function MetadatoCard(props)
 {
     return(
-        <div className="bold"> {props.metadato} </div>
+        <div> {props.metadato} </div>
     )
 }
 
